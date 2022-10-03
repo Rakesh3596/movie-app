@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <link rel="stylesheet" href="./styles/signup.css">
+    </head>
+
+    <body>
+
+        <div id="navbar">
+            <div id="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div id="home">
+                <h3>Home</h3>
+                <h3><a href="signup.html">Signup</a> </h3>
+                <h3><a href="login.html">Login</a> </h3>
+
+            </div>
+        </div>
+
+        <div id="signup-form-div">
+            <h2>Signup</h2>
+
+            <form onsubmit="userdata(event)">
+                <!--Write form input elements here-->
+                <input type="text" name="" id="name" placeholder="name">
+                <input type="number" name="" id="nu" placeholder="Contact">
+                <input type="email" name="" id="email" placeholder="email">
+                <input type="password" name="" id="pas" placeholder="Password">
+                <input type="submit" name="" id="but">  
+                <div class="exixtingUser">
+                    Already Rigisterd  ? <a href="login.html">Login</a>
+                </div>            
+
+
+            </form>
+
+        </div>
+    </body>
+
+    <script src="./scripts/signup.js"></script>
+
+</html>
